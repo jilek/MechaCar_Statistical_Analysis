@@ -96,7 +96,7 @@ Using our knowledge of R, we designed a statistical study to compare performance
 
     - *Overall Safety Rating*: Safety Ratings are available at https://www.nhtsa.gov/ratings. The 'overall' category is made up of various sub-categories like: Frontal Crash, Side Crash, Rollover, etc.; but we just need a **categorical** 'overall safety rating' (e.g. A, B, C, D, E, and F)
 
-    -*Vehicle Weight**: We need the vehicle weight for all current cars. This can be converted into 'buckets' or **categories**. For example, for cars weighing 0.5 - 2.0 tons (e.g. 1000 - 4000 pounds), we would need twelve 250 pound weight 'categories'.
+    -*Vehicle Weight*: We need the vehicle weight for all current cars. This can be converted into 'buckets' or **categories**. For example, for cars weighing 0.5 - 2.0 tons (e.g. 1000 - 4000 pounds), we would need twelve 250 pound weight 'categories'.
 
 - What is the null hypothesis or alternative hypothesis?
 
@@ -115,6 +115,13 @@ Using our knowledge of R, we designed a statistical study to compare performance
     - *Vehicle Weight data for all current vehicle models (including the MechaCar)*
 
     - *Crash Test Results converted into "Overall Safety Rating for all current vehicle models (including the MechaCar)*
+
+    - *Verify Pre-conditions for Chi-Squared Test*
+      1. Each subject within a group contributes to only one frequency. In other words, the sum of all frequencies equals the total number of subjects in a dataset.
+      2. Each unique value has an equal probability of being observed.
+      3. There is a minimum of five observed instances for every unique value for a 2x2 chi-squared table.
+      4. For a larger chi-squared table, there is at least one observation for every unique value and at least 80% of all unique values have five or more observations.
+
 
 ## <span style="color: lightgreen;">Summary</span>
 
