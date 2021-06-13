@@ -1,6 +1,6 @@
 # <span style="color: lightgreen;">MechaCar_Statistical_Analysis</span>
 
-We analyzed data for AutosRUs’ newest prototype, the MechaCar, which is suffering from production troubles that are blocking the manufacturing team’s progress. We helped the data analytics team to review the production data for insights that may help the manufacturing team.
+We analyzed data for AutosRUs’ newest prototype, the MechaCar, which is suffering from production issues that are blocking the manufacturing team’s progress. We helped the data analytics team to review the production data for insights that may help the manufacturing team.
 
 Technologies Used:
 - R
@@ -13,7 +13,7 @@ Technologies Used:
 
 - **Deliverable 2 - Summary Statistics on Suspension Coils**: Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 
-- **Deliverable 3 - T-Test on Suspension Coils**: Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+- **Deliverable 3 - T-Test on Suspension Coils**: Run t-tests to determine if the manufacturing lots are statistically different from the population mean
 
 - **Deliverable 4 - Design a Study Comparing the MechaCar to the Competition**: Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
@@ -44,7 +44,7 @@ Figure 2. Linear regresson plots for mpg vs. each independent variable.
 
 ###### 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-- **Somewhat**. Since **(Intercept) != 0**, it mean that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero. It could mean that the significant features (e.g. vehicle_length and ground_clearance) may need scaling or transforming to improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model.
+- **Somewhat**. Since **(Intercept) != 0**, it means that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero. It could mean that the significant features (e.g. vehicle_length and ground_clearance) may need scaling or transforming to improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model.
 
 <hr>
 
@@ -94,7 +94,7 @@ Using our knowledge of R, we designed a statistical study to compare performance
 
 - What metric or metrics will be tested?
 
-    - *Overall Safety Rating*: Safety Ratings are available at https://www.nhtsa.gov/ratings. The 'overall' category is made up of various sub-categories like: Frontal Crash, Side Crash, Rollover, etc.; but we just need a **categorical** 'overall safety rating' (e.g. A, B, C, D, and F)
+    - *Overall Safety Rating*: Safety Ratings are available at https://www.nhtsa.gov/ratings. The 'overall' category is made up of various sub-categories like: Frontal Crash, Side Crash, Rollover, etc.; but we just need a **categorical** 'overall safety rating' (e.g. A, B, C, D, E, and F)
 
     -*Vehicle Weight**: We need the vehicle weight for all current cars. This can be converted into 'buckets' or **categories**. For example, for cars weighing 0.5 - 2.0 tons (e.g. 1000 - 4000 pounds), we would need twelve 250 pound weight 'categories'.
 
